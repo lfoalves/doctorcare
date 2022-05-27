@@ -1,5 +1,7 @@
 window.addEventListener('scroll', onScroll)
 
+const navigation = document.getElementById('navigation');
+
 // add color on logo box with scroll ----------------------------------
 function onScroll() {
     showNavScroll()
@@ -106,3 +108,10 @@ ScrollReveal({
 #contact,
 #contact header,
 #contact .content`);
+
+function toBDiv() {
+    const tamanho =( parseInt(home) / 4);
+    console.log(tamanho);
+}
+
+toBDiv();
